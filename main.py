@@ -14,4 +14,4 @@ for module_name in route_modules:
 
 if __name__ == '__main__':
     mode = os.getenv("DEBUG")
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)
