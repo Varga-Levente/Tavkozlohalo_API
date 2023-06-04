@@ -24,8 +24,8 @@ def register_route(app):
             # Create sql connection
             conn = mysql.connector.connect(
                 host="10.10.10.30",
-                username="edu",
-                password="jy4anCIrgK9XzMqg",
+                username="***",
+                password="*****************",
                 database="edupage"
             )
             # Create cursor
